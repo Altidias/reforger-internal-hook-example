@@ -1,3 +1,17 @@
+// DX typedefs
+typedef HRESULT(STDMETHODCALLTYPE* Present_t)(
+    IDXGISwapChain* pSwapChain,
+    UINT SyncInterval,
+    UINT Flags
+    );
+
+typedef void (STDMETHODCALLTYPE* ExecuteCommandLists_t)(
+    ID3D12CommandQueue* pQueue,
+    UINT NumCommandLists,
+    ID3D12CommandList* const* ppCommandLists
+    );
+
+
 Present_t Original_Present = nullptr;
 ExecuteCommandLists_t Original_ExecuteCommandLists = nullptr;
 bool g_gameQueueHooked = false;

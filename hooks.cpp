@@ -1,3 +1,8 @@
+Present_t Original_Present = nullptr;
+ExecuteCommandLists_t Original_ExecuteCommandLists = nullptr;
+bool g_gameQueueHooked = false;
+
+
 // ========================================================
 // Hooked: ID3D12CommandQueue::ExecuteCommandLists
 // ========================================================

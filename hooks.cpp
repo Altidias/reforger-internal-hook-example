@@ -117,6 +117,9 @@ void InitializeHooks(IDXGISwapChain* swapChain)
 
         ID3D12CommandQueue* tempQueue = nullptr;
         if (SUCCEEDED(device->CreateCommandQueue(&qDesc, IID_PPV_ARGS(&tempQueue)))) {
+            if (HookCommandQueue(tempQueue)) {
+                Log("Hooked ExecuteCommandLists via temp queue successfully");
+            }
             tempQueue->Release();
         }
         device->Release();

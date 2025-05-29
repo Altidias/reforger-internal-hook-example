@@ -1,4 +1,4 @@
-# offsets (16/05/2025):
+# offsets (29/05/2025):
 
 - EngineWin: Game + B8
 - RendererImpl: EngineWin + 148
@@ -8,4 +8,4 @@
 or
 
 - IDXGISwapChain Static: gameoverlayrenderer64.dll+163348
-- RendererImpl Static: ArmaReforgerSteam.exe+1C82A80
+- RendererImpl Static: ArmaReforgerSteam.exe+1C84F40

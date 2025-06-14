@@ -5,9 +5,6 @@
   
 - CameraManager_Weak: Game + 308
 - CameraManager: CameraManager_Weak + 8 <-- Contains FOV data for playerCamera
-  
-- EntityList: World + 378
-- EntityCount: World + 124
 
 - LocalPlayerController_Weak: World + 378
 - LocalPlayerController: LocalPlayerController_Weak + 8

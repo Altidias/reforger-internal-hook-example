@@ -1,6 +1,6 @@
-# offsets (29/05/2025):
+# offsets (31/07/2025):
 
-- Game: ArmaReforgerSteam.exe + 0x1D521A8
+- Game: ArmaReforgerSteam.exe + 0x1D59488
 - World: Game + 130
   
 - CameraManager_Weak: Game + 308
@@ -17,5 +17,5 @@
 
 or
 
-- IDXGISwapChain Static: gameoverlayrenderer64.dll+163348
-- RendererImpl Static: ArmaReforgerSteam.exe+1C84F40
+- IDXGISwapChain Static: gameoverlayrenderer64.dll+163348 // Outdated probably
+- RendererImpl Static: ArmaReforgerSteam.exe+1C8C200

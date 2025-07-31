@@ -17,5 +17,4 @@
 
 or
 
-- IDXGISwapChain Static: gameoverlayrenderer64.dll+163348 // Outdated probably
 - RendererImpl Static: ArmaReforgerSteam.exe+1C8C200
